@@ -62,17 +62,6 @@ a, a:hover {
   color: #62B6CB;
 }
 
-.subtitleHome {
-  margin-left: 200px;
-  margin-right: 200px;
-  text-align: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin: 0;
-  padding:0;
-  color: #62B6CB;
-}
-
 .points, .images {
   background-color: #79C3D3;
   margin: 20px;

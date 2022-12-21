@@ -67,27 +67,39 @@ a, a:hover {
   margin-bottom: 10px;
 }
 
-.about, .companies, .products, .assets,
+/* .about, .companies, .products, .assets,
 .bezosCompanies, .wealthBreakDown, .bezosSalary,
-.cheapskate, .backgroundInfo, .pandemic, .workers, .solutions {
-  /* background-color: rgba(115, 153, 178, .75); */
+.pollutantsCarousel, .backgroundInfo, .pandemic, .historyBody, .gentrificationBody, .superfundBody {
+  background-color: rgba(115, 153, 178, .75);
   background-color: #79C3D3;
   margin: 20px;
-  padding-top: 1px;
+  padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
+} */
+
+.points {
+  /* background-color: rgba(115, 153, 178, .75); */
+  background-color: #79C3D3;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
 }
 
-.own, .product {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 1vmin;
-  grid-row-gap: 1vmin;
-  padding: 1vmin;
-  text-align: justify;
-  font-size: 18px;
+.citations {
+  /* background-color: rgba(115, 153, 178, .75); */
+  color: #79C3D3;
+  margin: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
 }
 
 h4, h3, h2 {
@@ -96,20 +108,20 @@ h4, h3, h2 {
 
 h3 {
   color: #1B4965;
-  font-size: 22px;
+  font-size: 24px;
 }
 
 h4 {
   color: #1B4965;
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 p {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 img {
@@ -120,22 +132,14 @@ img {
   border-radius: 10px;
 }
 
-.infographic {
-  text-align: center;
-  color: #BEE9E8;
-}
-
 .company, .money {
   display: flex;
   justify-content: space-around;
 }
 
-.cheap, .points {
+.pollutant {
+  margin-bottom: 25px;
   padding-left: 150px;
-  padding-right: 150px;
+  padding-right: 100px;
   vertical-align: middle;
-}
-
-.money {
-  padding: 0px;
 }

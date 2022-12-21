@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Fascinate+Inline&family=Pontano+Sans&family=Poppins&family=Quicksand&family=Urbanist&family=Vast+Shadow&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: #BEE9E8;
+  color: #CAE9FF;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #1B4965;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.header a {
+  color: #79C3D3;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #BEE9E8;
+}
+
+a, a:visited, a:active {
+  font-weight: bold;
+  color: #3F8098;
+  text-decoration: none;
+}
+
+a, a:hover {
+  color: #5FA8D3;
+}
+
+.info {
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.pageTitle {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: #3F8098;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  margin-left: 200px;
+  margin-right: 200px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #62B6CB;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about, .companies, .products, .assets,
+.bezosCompanies, .wealthBreakDown, .bezosSalary,
+.cheapskate, .backgroundInfo, .pandemic, .workers, .solutions {
+  /* background-color: rgba(115, 153, 178, .75); */
+  background-color: #79C3D3;
+  margin: 20px;
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+}
+
+.own, .product {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  padding: 1vmin;
+  text-align: justify;
+  font-size: 18px;
+}
+
+h4, h3, h2 {
+  padding: 0px;
+}
+
+h3 {
+  color: #1B4965;
+  font-size: 22px;
+}
+
+h4 {
+  color: #1B4965;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.infographic {
+  text-align: center;
+  color: #BEE9E8;
+}
+
+.company, .money {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cheap, .points {
+  padding-left: 150px;
+  padding-right: 150px;
+  vertical-align: middle;
+}
+
+.money {
+  padding: 0px;
+}

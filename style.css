@@ -8,27 +8,27 @@ body, html {
   padding: 0;
   margin: 0;
   height: 100%;
-  background-color: #BEE9E8;
-  color: #CAE9FF;
+  background-color: #EBF5DF;
+  color: #89956F;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  background-color: #1B4965;
+  background-color: #C7D4AA;
   font-family: 'Urbanist', sans-serif;
 }
 
 .header a {
-  color: #79C3D3;
+  color: #E8871E;
   text-decoration: none;
 }
 
 .header a:hover {
-  color: #BEE9E8;
+  color: #EDB458;
 }
 
-a, a:visited, a:active {
+/* a, a:visited, a:active {
   font-weight: bold;
   color: #3F8098;
   text-decoration: none;
@@ -36,7 +36,7 @@ a, a:visited, a:active {
 
 a, a:hover {
   color: #5FA8D3;
-}
+} */
 
 .info {
   margin-left: 50px;
@@ -48,7 +48,7 @@ a, a:hover {
 .pageTitle {
   text-align: center;
   font-family: 'Poppins', sans-serif;
-  color: #3F8098;
+  color: #EB9E3B;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -59,11 +59,11 @@ a, a:hover {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  color: #62B6CB;
+  color: #EDB458;
 }
 
 .points, .images {
-  background-color: #79C3D3;
+  background-color: #D3E5C5;
   margin: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -82,7 +82,7 @@ a, a:hover {
 }
 
 .citations {
-  color: #79C3D3;
+  color: #EB9E3B;
   margin: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -96,12 +96,12 @@ h4, h3, h2 {
 }
 
 h3 {
-  color: #1B4965;
+  color: #E8871E;
   font-size: 24px;
 }
 
 h4 {
-  color: #1B4965;
+  color: #E8871E;
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 22px;
